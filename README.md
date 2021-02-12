@@ -3,10 +3,10 @@ Utilizes the three kinds of updates for the Hopfield model: synchronous, asynchr
 
 The program takes in 3 command-line arguments:
 
-1) The type of update 
-  a) Synchronous (```synch```) - all your X values are updated every iteration
-  b) Asynchronous random (```asynchrand```) - A random X value is chosen to be updated every iteration
-  c) Asynchronous order (```asynchorder```) - An X value is updated if the previous X value was updated the previous iteration ((iteration) % (dimension of X vector)) gives the index to be updated this iteration, if we say that the iterations start at 0)
+1) The type of update /br
+  /ta) Synchronous (```synch```) - all your X values are updated every iteration /br
+  /tb) Asynchronous random (```asynchrand```) - A random X value is chosen to be updated every iteration /br
+  /tc) Asynchronous order (```asynchorder```) - An X value is updated if the previous X value was updated the previous iteration ((iteration) % (dimension of X /br vector)) gives the index to be updated this iteration, if we say that the iterations start at 0)
 2) The amount of inputs/dimension of weight matrix
 3) Symmettry of weight matrix (`1` if it should be symmetric, `0` if values should be chosen randomly)
 
