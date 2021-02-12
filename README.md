@@ -12,6 +12,6 @@ The program takes in 3 command-line arguments:
 
 E.g. 
 
-```python3 hopfield.py asynchorder 2 0``` uses asynchronous order update, an input vector of size 2, and a weight matrix with randomly picked values <br/>
+```python3 hopfield.py asynchorder 2 0``` uses asynchronous order update, an input vector of size 2, and a weight matrix with randomly picked values <br/> and
 ```python3 hopfield.py synch 3 1``` uses synchronous update, an input vector of size 3, and a symmetric weight matrix.
 
