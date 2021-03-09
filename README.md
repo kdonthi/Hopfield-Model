@@ -6,7 +6,7 @@ The program takes in 3 command-line arguments:
 1) The type of update <br/>
   </t>a) Synchronous (```synch```) - all your X values are updated every iteration <br/>
   </t>b) Asynchronous random (```asynchrand```) - A random X value is chosen to be updated every iteration <br/> 
-  </t>c) Asynchronous order (```asynchorder```) - An X value is updated if the previous X value was updated the previous iteration ((iteration - 1) % (dimension of X vector)) gives the index to be updated this iteration, if we say that the iterations start at 1) <br/>
+  </t>c) Asynchronous order (```asynchorder```) - An X value is updated if the previous X value was updated the previous iteration ```((iteration - 1) % (dimension of X vector))``` gives the index to be updated this iteration, if we say that the iterations start at 1) <br/>
 2) The amount of inputs/dimension of weight matrix
 3) Symmettry of weight matrix (`1` if it should be symmetric, `0` if values should be chosen randomly)
 
